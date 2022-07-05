@@ -75,6 +75,7 @@ nav {
 nav > a {
     color:var(--cor0);
     padding: 10px;
+    margin-right: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
