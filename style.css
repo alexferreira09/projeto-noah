@@ -131,7 +131,7 @@ main h2 {
     font-weight: normal;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
-    padding-left: 23px;
+   
 }
 
 main p {
@@ -141,8 +141,7 @@ main p {
     text-indent: 30px;
     font-size: 1em;
     line-height: 2em;
-    padding-right: 10px;
-    padding-left: 5px;
+ 
 }
 
 main strong {
@@ -150,6 +149,13 @@ main strong {
     font-weight: bold; 
 }
 
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: ;
+    background-color: ;
+    padding: 2px 6px ;
+}
 
 
 main a:hover {
