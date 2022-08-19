@@ -218,6 +218,18 @@ footer {
     padding: 5px;
 }
 
+button {
+    background-color: #86bedf;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #276296;
+    transition: .5s;
+    color: white;
+}
+
 footer a {
     color: white;
     font-weight: bolder;

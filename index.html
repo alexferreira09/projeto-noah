@@ -86,9 +86,23 @@
             <p>Então é isso! Espero que vocês tenham gostado de saber um pouquinho mais sobre a minha história! Essa página foi criada com muito carinho pelo meu papai! E não esqueçam de compartilhar a minha página e me seguir no instagram </p>
         </article>
     </main>
+
+    <button id="button-top">Voltar ao topo</button>
     
     <footer>
         <p>Site criado por <a href="https://www.instagram.com/alexferreira_rio/" target="_blank" class="externo">Alex Ferreira</a> </p>
     </footer>
+
+    <script>
+        const handleScroll = () => {
+            window.scroll({
+                top:0,
+                behavior: 'smooth'
+            })
+        }
+
+        const buttonElement = document.getElementById("button-top")
+        buttonElement.onclick = handleScroll;
+    </script>
 </body>
 </html>
